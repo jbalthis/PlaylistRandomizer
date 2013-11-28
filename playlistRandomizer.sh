@@ -1,7 +1,6 @@
 #!/usr/bin/bash
 
 ORIGNAME=$1
-
 # Get track info from existing playlist
 exec `cat $1 > tmp; tail -n +4 tmp > temp.txt; head -n 3 tmp > new.pls; awk -F "=" '{print $2}' temp.txt > temp.pls;`
 
