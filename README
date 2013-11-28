@@ -1,4 +1,5 @@
-playlistRandomizer.sh - BASH script to randomize Rhythmbox playlists more effectively than the shuffle option provided by Rhythmbox.
+* playlistRandomizer.sh *
+BASH script to randomize Rhythmbox playlists more effectively than the shuffle option provided by Rhythmbox.
 
 by: Jason Balthis
 11/28/2013
